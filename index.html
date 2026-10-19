@@ -780,7 +780,7 @@ footer{margin-top:24px;text-align:center;font-size:12px;color:var(--mute)}
 
   <p class="eyebrow">KEIMYUNG UNIVERSITY</p>
   <h1>장학복지팀<br>오시는 길</h1>
-  <div class="dest">📍 바우어신관 <b>1층 3105호</b></div>
+  <div class="dest">📍 바우어관 <b>2층 1220호</b></div>
 
   <div class="tabs" role="tablist">
     <button class="tab" role="tab" data-route="gyemyeong" aria-selected="true"><span>🚇</span>계명대역</button>
@@ -800,16 +800,16 @@ footer{margin-top:24px;text-align:center;font-size:12px;color:var(--mute)}
   <div class="card">
     <h2>건물에 들어오신 뒤</h2>
     <div class="indoor">
-      <div><em>1</em><span>정면 현관으로 들어와 <b>1층 로비</b>에 서세요.</span></div>
-      <div><em>2</em><span>로비에서 <b>왼쪽 복도</b>로 들어가면 사무실 표지판이 보여요.</span></div>
-      <div><em>3</em><span><b>3105호 장학복지팀</b> — 문 열고 들어오시면 됩니다.</span></div>
+      <div><em>1</em><span>정면 현관으로 들어와 <b>2층</b>으로 올라가세요. (엘리베이터·계단 이용)</span></div>
+      <div><em>2</em><span><b>2층 복도</b>에서 장학복지팀 표지판을 따라가세요.</span></div>
+      <div><em>3</em><span><b>1220호 장학복지팀</b> — 문 열고 들어오시면 됩니다.</span></div>
     </div>
   </div>
 
   <div class="card">
     <h2>방문 전 확인</h2>
     <div class="info">
-      <div class="row"><b>주소</b><span>대구광역시 달서구 달구벌대로 1095<br>계명대학교 성서캠퍼스 바우어신관 1층 3105호</span></div>
+      <div class="row"><b>주소</b><span>대구광역시 달서구 달구벌대로 1095<br>계명대학교 성서캠퍼스 바우어관 2층 1220호</span></div>
       <div class="row"><b>전화</b><a href="tel:0535806091">053-580-6091~4</a></div>
       <div class="row"><b>운영시간</b><span>
         <span class="hours"><i>학기중</i>08:30 ~ 17:30</span>
@@ -863,32 +863,32 @@ const GOAL=[35.854248,128.4861048];
 const META={
   gyemyeong:{mode:"도보",speed:67,vehicle:false,
     stops:[{i:0,t:"계명대역 2번 출구",side:"down"},{i:9,t:"정문 진입",side:"down"},
-           {i:16,t:"바우어신관 3105호",side:"up",goal:true}],
+           {i:16,t:"바우어관 1220호",side:"up",goal:true}],
     steps:[{h:"2호선 계명대역 하차",p:"2번 출구로 나오세요.",tag:"대구 도시철도 2호선"},
            {h:"달구벌대로 따라 서쪽으로",p:"큰길을 따라 정문 방향으로 걷습니다.",tag:"약 7분"},
            {h:"정문으로 캠퍼스 진입",p:"정문을 지나 교내 도로를 따라 북쪽으로 올라가세요.",tag:"약 6분"},
-           {h:"바우어신관 도착",p:"1층 3105호 장학복지팀입니다.",tag:"도착"}]},
+           {h:"바우어관 도착",p:"2층 1220호 장학복지팀입니다.",tag:"도착"}]},
   gangchang:{mode:"도보",speed:67,vehicle:false,
     stops:[{i:0,t:"강창역",side:"down"},{i:13,t:"남문 진입",side:"down"},
-           {i:22,t:"바우어신관 3105호",side:"up",goal:true}],
+           {i:22,t:"바우어관 1220호",side:"up",goal:true}],
     steps:[{h:"2호선 강창역 하차",p:"계명대 방향 출구로 나오세요.",tag:"대구 도시철도 2호선"},
            {h:"달구벌대로 따라 동쪽으로",p:"큰길을 따라 캠퍼스 방향으로 걷습니다.",tag:"약 8분"},
            {h:"남문으로 캠퍼스 진입",p:"남문을 지나 교내 도로를 따라 올라갑니다.",tag:"약 5분"},
-           {h:"바우어신관 도착",p:"1층 3105호 장학복지팀입니다.",tag:"도착"}]},
+           {h:"바우어관 도착",p:"2층 1220호 장학복지팀입니다.",tag:"도착"}]},
   bus:{mode:"도보",speed:67,vehicle:false,
     stops:[{i:0,t:"계명대학교정문앞",side:"down"},{i:5,t:"정문 진입",side:"down"},
-           {i:12,t:"바우어신관 3105호",side:"up",goal:true}],
+           {i:12,t:"바우어관 1220호",side:"up",goal:true}],
     steps:[{h:"'계명대학교정문앞' 하차",p:"급행1 · 520 · 524 · 527 · 564 · 655 · 성서2 가 정차합니다.",tag:"시내버스 7개 노선"},
            {h:"정문까지 걸어가기",p:"달구벌대로를 따라 동쪽으로 갑니다.",tag:"약 3분"},
            {h:"정문으로 캠퍼스 진입",p:"정문을 지나 북쪽 오르막을 올라갑니다.",tag:"약 5분"},
-           {h:"바우어신관 도착",p:"1층 3105호 장학복지팀입니다.",tag:"도착"}]},
+           {h:"바우어관 도착",p:"2층 1220호 장학복지팀입니다.",tag:"도착"}]},
   car:{mode:"차량",speed:330,vehicle:true,
     stops:[{i:0,t:"달구벌대로",side:"down"},{i:6,t:"정문 진입",side:"down"},
            {i:13,t:"바우어관 주차장",side:"up",goal:true}],
     steps:[{h:"'계명대학교 성서캠퍼스' 검색",p:"내비게이션 목적지는 달구벌대로 1095입니다.",tag:"자가용"},
            {h:"달구벌대로에서 정문 진입",p:"진입 시 방문 목적을 말씀하시면 됩니다.",tag:"방문차량 등록"},
-           {h:"교내 도로를 따라 북쪽으로",p:"오르막을 따라 바우어신관 방향으로 갑니다.",tag:"약 1분"},
-           {h:"바우어관 주차장 주차",p:"주차 후 1층 3105호로 오세요.",tag:"도착"}]}
+           {h:"교내 도로를 따라 북쪽으로",p:"오르막을 따라 바우어관 방향으로 갑니다.",tag:"약 1분"},
+           {h:"바우어관 주차장 주차",p:"주차 후 2층 1220호로 오세요.",tag:"도착"}]}
 };
 
 const PAL={k:"#22262B",s:"#F5CBA3",n:"#16325C",w:"#FFFFFF",r:"#E4572E",
@@ -939,8 +939,7 @@ const STYLE={
 });
 
 if(USE_TILES){
-  const SRC=["https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
-             "https://tile.openstreetmap.org/{z}/{x}/{y}.png"];
+  const SRC=["https://tile.openstreetmap.org/{z}/{x}/{y}.png"]; /* v148: carto(API키 필요) 제거, 무인증 OSM만 사용 */
   let idx=0,tl=null;
   const mount=()=>{
     if(idx>=SRC.length) return;
@@ -954,7 +953,7 @@ if(USE_TILES){
 
 let layers=[],hero=null,raf=null,current="gyemyeong",frame=0,legTimer=null;
 const stepsEl=document.getElementById("steps"),hud=document.getElementById("hud");
-const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
+const reduce=false; /* v141: 동작 줄이기 설정과 무관하게 애니메이션 항상 재생 */
 
 function segs(pts){
   const out=[];let total=0;
